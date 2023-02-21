@@ -1,0 +1,16 @@
+2023-02-08 17:38:35.559 +08 [25681] LOG:  starting PostgreSQL 15.0 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit
+2023-02-08 17:38:35.559 +08 [25681] LOG:  listening on IPv4 address "127.0.0.1", port 5001
+2023-02-08 17:38:35.568 +08 [25681] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5001"
+2023-02-08 17:38:35.577 +08 [25684] LOG:  database system was shut down at 2023-02-08 17:31:43 +08
+2023-02-08 17:38:35.583 +08 [25681] LOG:  database system is ready to accept connections
+2023-02-08 17:43:35.379 +08 [25682] LOG:  checkpoint starting: time
+2023-02-08 17:43:35.496 +08 [25682] LOG:  checkpoint complete: wrote 45 buffers (0.5%); 0 WAL file(s) added, 0 removed, 6 recycled; write=0.006 s, sync=0.077 s, total=0.117 s; sync files=273, longest=0.006 s, average=0.001 s; distance=99334 kB, estimate=99334 kB
+2023-02-08 17:48:35.980 +08 [25682] LOG:  checkpoint starting: time
+2023-02-08 17:48:36.229 +08 [25682] LOG:  checkpoint complete: wrote 37 buffers (0.5%); 0 WAL file(s) added, 0 removed, 2 recycled; write=0.220 s, sync=0.009 s, total=0.250 s; sync files=15, longest=0.003 s, average=0.001 s; distance=31688 kB, estimate=92570 kB
+2023-02-08 17:56:31.601 +08 [25681] LOG:  received fast shutdown request
+2023-02-08 17:56:31.605 +08 [25681] LOG:  aborting any active transactions
+2023-02-08 17:56:31.606 +08 [25681] LOG:  background worker "logical replication launcher" (PID 25687) exited with exit code 1
+2023-02-08 17:56:31.608 +08 [25682] LOG:  shutting down
+2023-02-08 17:56:31.612 +08 [25682] LOG:  checkpoint starting: shutdown immediate
+2023-02-08 17:56:31.679 +08 [25682] LOG:  checkpoint complete: wrote 7560 buffers (92.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.046 s, sync=0.007 s, total=0.071 s; sync files=12, longest=0.005 s, average=0.001 s; distance=0 kB, estimate=83313 kB
+2023-02-08 17:56:31.684 +08 [25681] LOG:  database system is shut down
